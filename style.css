@@ -74,7 +74,7 @@ flex-direction: column;
 #contacts{
     background-color: #000000;
     color: #ffffff;
-    font-family: "Arial Black";
+    font-family: 'Poppins', sans-serif;
     height: 15%;
     width: 100%;
     padding-top: 5%;
@@ -94,6 +94,7 @@ flex-direction: column;
 
 #name {
     font-size: 1.6rem;
+    font-family: "Arial Black";
 }
 
 #currentJob {
@@ -110,6 +111,7 @@ flex-direction: column;
 
 #lbl {
     visibility: hidden;
+    font-family: "Arial Black";
 }
 
 #content {
@@ -138,15 +140,18 @@ li {
 }
 
 h3 {
+    font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
     margin: 1.1rem 0 0.5rem 0;
     font-weight: 700;
+    letter-spacing: 0.3rem;
 }
 
 h4 {
+    font-family: 'Poppins', sans-serif;
     color: #30353e;
     font-size: 0.9rem;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .posDurations{
@@ -182,7 +187,7 @@ h4 {
 
    #nameJob {
     position: relative;
-    margin: 50% 0 432.5% 0;
+    margin: 50% 0 417.5% 0;
     font-family: 'Calibri Light', sans-serif;
     letter-spacing: 0.3rem;
     transform: rotate(270deg);
