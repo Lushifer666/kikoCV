@@ -182,6 +182,7 @@ h4 {
     position: relative;
     max-height: fit-content;
     width: 900px;
+    min-width: 600px;
     flex-direction: row;
    }
    
@@ -200,6 +201,18 @@ h4 {
     transform: rotate(270deg);
     height: 80%;
     line-height: 2rem;
+    align-items: flex-end;
+   }
+
+   #name {
+    display: flex;
+    text-align: end;
+   }
+   
+   #currentJob {
+    display: flex;
+    align-items: flex-end;
+    text-align: end;
    }
    
    #numAdd {
